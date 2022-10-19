@@ -1,0 +1,19 @@
+.principal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aside-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
