@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #E4FBFF;
 }
 
 button{
@@ -10,7 +11,45 @@ button{
     height: 100px;
     margin-top: 50px;
     border: 2px solid white;
-    background-color: rgb(250, 164, 133);
+    background-color: #B8B5FF;
     font-size: 1.2em;
     font-weight: bold;
+    cursor: pointer;
+    color: whitesmoke;
 }
+
+.post-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin: 2%;
+    border-bottom: 2px solid #EDEEF7;
+   /* background-color: #FEE0C0;*/
+    padding: 2% 0 2% 0;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 50px;
+    color: #7868E6;
+}
+
+.body-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 90px;
+}
+
+.read-more{
+    cursor: pointer;
+    margin-bottom: 2%;
+    color: #B8B5FF;
+}
+
