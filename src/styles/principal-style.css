@@ -6,7 +6,7 @@
     background-color: #E4FBFF;
 }
 
-button{
+.big-button{
     width: 300px;
     height: 100px;
     margin-top: 50px;
@@ -16,6 +16,7 @@ button{
     font-weight: bold;
     cursor: pointer;
     color: whitesmoke;
+    border-radius: 20%;
 }
 
 .post-container{
@@ -26,7 +27,6 @@ button{
     width: 70%;
     margin: 2%;
     border-bottom: 2px solid #EDEEF7;
-   /* background-color: #FEE0C0;*/
     padding: 2% 0 2% 0;
 }
 

@@ -14,7 +14,7 @@ const Principal = () => {
     return(
         <div className='App'>
           <Link to='/form'>
-          <button>Crear nuevo post</button>
+          <button className='big-button'>Crear nuevo post</button>
           </Link>
           {posts.map((post) => {
             return (

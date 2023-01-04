@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { Link } from 'react-router-dom';
 import '../styles/post-style.css'
 
 const Post = ()=> {
@@ -17,23 +18,27 @@ const Post = ()=> {
         },
         []
     )
-    console.log(post)
-    console.log('USEEER', user)
+    
     return (
-        <div className='principal-container'>
-            <section className='section-container'>
-                <h1 style={{color: 'red'}}> Post con el id {id}</h1>
-                <h2>{post?.title}</h2>
-                <p>{post?.body}</p>
-            </section>
-            <aside className='aside-container'>
-                <p>{user?.name}</p>
-                <p>{user?.username}</p>
-                <p>{user?.email}</p>
-                <p>{user?.website}</p>
-            </aside>
-        </div>
-        
+        <>
+            <div className='principal-container'>
+                <section className='section-container'>
+                    <h3 style={{color: '#7868E6'}}> Post con el id {id}</h3>
+                    <h4>{post?.title}</h4>
+                    <p>{post?.body}</p>
+                </section>
+                <aside className='aside-container'>
+                    <h3 style={{color: '#7868E6'}}> Datos del autor/a</h3>
+                    <p>{user?.name}</p>
+                    <p>{user?.username}</p>
+                    <p>{user?.email}</p>
+                    <p>{user?.website}</p>
+                </aside>
+            </div>
+            <Link to='/'>
+                <button className='little-button'>Inicio</button>
+            </Link>
+        </>  
     )
 }
 
