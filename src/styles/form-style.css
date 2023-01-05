@@ -1,3 +1,38 @@
+.principal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.principal-container > h1{
+    color: #7868E6;
+    margin-bottom: 5%;
+}
+
+.border{
+    border: 0;
+    padding: 5%;
+}
+
 label {
     display: block;
+    margin-bottom: 8%;
+}
+
+.little-button{
+    display: flex;
+    width: 100px;
+    height: 70px;
+    margin-top: 80px;
+    border: 2px solid white;
+    background-color: #B8B5FF;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    color: whitesmoke;
+    border-radius: 10%;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
 }

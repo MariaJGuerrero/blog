@@ -18,25 +18,22 @@ values
 
 const Form = () => {
     return(
-        <div>
+        <div className='principal-container'>
             <h1>Crea un nuevo post</h1>
             <form onSubmit={(e) => submitHandler(e)}>
                 <label>
-                    <p>Título</p>
-                    <input name="title" type='text' placeholder='Título' />
+                    <input className='border' name="title" type='text' placeholder='Título' />
                 </label>
                 
                 <label>
-                    <p>Contenido</p>
-                    <textarea name="body" />
+                    <textarea className='border' name="body" placeholder='Contenido'/>
                 </label>
                 
                 <label>
-                    <p>User Id</p>
-                    <input name="userId" type='number'/>
+                    <input className='border' name="userId" type='number' placeholder='User Id'/>
                 </label>
 
-                <button type='submit'>Crear</button>
+                <button className='little-button' type='submit'>Crear</button>
             </form>
         </div>
     )
