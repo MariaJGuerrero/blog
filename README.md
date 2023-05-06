@@ -2,7 +2,8 @@
 
 Getting Started with Create React App
 
-- http calls ( GET | POST )
+- API REST ( GET | POST )
+- JSON Placeholder
 
 
 
